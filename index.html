@@ -2,16 +2,6 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-<style>
-  img="logo.png" alt="画像" width="300">
-
-    width: 100%;
-    max-width: 400px; /* 最大幅を指定 */
-    height: auto;
-    border-radius: 12px; /* オシャレな角丸（任意） */
-  }
-</style>
-
   <title>てんちょのテストページ</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
@@ -19,7 +9,7 @@
       margin: 0;
       padding: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #1b2e40; /* 暗めの水色系 */
+      background-color: #1b2e40;
       color: #e0f7ff;
       display: flex;
       flex-direction: column;
@@ -45,6 +35,14 @@
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
       text-align: center;
     }
+
+    img {
+      margin-top: 1em;
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
   </style>
 </head>
 <body>
@@ -52,7 +50,11 @@
     <h1>やぁここにたどり着いたのかい？</h1>
     <p>これはあくまでテストページ。</p>
     <p>何もできないけどなんか作れた。</p>
-     <p>実際何していいかわからない</p>
+    <p>実際何していいかわからない</p>
+
+    <!-- 🔽 ここに画像を表示 -->
+    <img src="logo.png" alt="てんちょのロゴ画像">
   </div>
 </body>
 </html>
+
